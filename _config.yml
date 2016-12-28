@@ -33,7 +33,10 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
-  
-sass:
-  sass_dir: _sass
-  style: compressed
+coderay:
+  coderay_wrap:              div
+  coderay_line_numbers:      inline
+  coderay_line_number_start: 1
+  coderay_tab_width:         4
+  coderay_bold_every:        10
+  coderay_css:               main
