@@ -14,7 +14,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Imanol Fotia
+title: Imanol Fotia | Graphics Programming and More
 email: imanolfotia@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Graphics and general programing tutorials, along with game development.
@@ -24,8 +24,13 @@ twitter_username: ImanolFotia
 github_username:  imanolfotia
 
 # Build settings
+sass:
+  sassdir: _sass
+include: ['_pages']
 markdown: kramdown
-input: GFM
+kramdown:
+  input: GFM
+  hard_wrap: false
 theme: minima
 gems:
   - jekyll-feed
