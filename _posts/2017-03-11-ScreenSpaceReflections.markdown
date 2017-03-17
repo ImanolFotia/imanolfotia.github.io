@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Screen space Reflections on Epsilon Engine"
+title: "Screen Space Reflections on Epsilon Engine"
 date: 2017-03-11 9:58 -0300
 categories: Blog Update
 ---
