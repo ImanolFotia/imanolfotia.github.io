@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Compiling GLEW in MinGW"
-date: 2017-03-11 9:58 -0300
+date: 2017-03-16 23:00 -0300
 categories: Blog Update
 ---
 
