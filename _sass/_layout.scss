@@ -46,11 +46,13 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-image: url("/media/sponza_epsilon.png");
 }
 main {
 	padding: 0 15px;
 	max-width: $content-width;
 	margin: 0 auto;
+	background-image: url("/media/sponza_epsilon.png");
 }
 time {
 	color: #898989;
@@ -66,7 +68,7 @@ aside {
 	position: fixed;
 	top: 0;
 	left: 0;
-	background: #FAFAFA;
+	background-image: url("/media/sponza_epsilon.png");
 	width: 100%;
 	z-index: 2;
 	border-bottom: 1px solid lighten($light, 30%);
