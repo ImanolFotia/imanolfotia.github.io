@@ -119,6 +119,7 @@ footer {
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
+  align: center;
 }
 
 .fa:hover {
@@ -227,6 +228,11 @@ footer {
 }
 
 .fa-rss {
+  background: #ff6600;
+  color: white;
+}
+
+.fa-steam {
   background: #ff6600;
   color: white;
 }
