@@ -5,7 +5,7 @@ body {
 	font-size: 1.1em;
 	line-height: 1.6;
 	-webkit-font-smoothing: antialiased;
-	background: #FAFAFA;
+	background: url('media/sponza_epsilon.png');
 }
 h1,
 h2,
@@ -46,7 +46,6 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: url('media/sponza_epsilon.png');
 }
 main {
 	padding: 0 15px;
