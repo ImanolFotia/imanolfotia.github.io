@@ -39,7 +39,7 @@ window.onload = function()
 
 </script>
 <script type="text/javascript">
-alert(window.onload);
+//alert(window.onload);
 </script>
 
 <br><br><br><br>
