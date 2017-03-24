@@ -33,9 +33,9 @@ function showSlides(n) {
 }	
 
 
-document.addEventListener('DOMContentLoaded', function() {
-    showSlides(1);
-}, false);
+$(document).ready ( function(){
+   alert('ok');
+});
 
 </script>
 
