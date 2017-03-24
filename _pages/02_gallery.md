@@ -32,9 +32,9 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }	
 
-window.onload = function() {
-	showSlides(1);
-};
+
+showSlides(1);
+
 </script>
 
 <br><br><br><br>
