@@ -33,9 +33,10 @@ function showSlides(n) {
 }	
 
 
-document.addEventListener('DOMContentLoaded', function() {
-    alert('anda');
-}, false);
+window.onload = function()
+{
+	alert("llega");
+}
 
 </script>
 
