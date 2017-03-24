@@ -38,9 +38,6 @@ window.onload = function()
 }
 
 </script>
-<script type="text/javascript">
-//alert(window.onload);
-</script>
 
 <br><br><br><br>
 <div class="slideshow-container">
