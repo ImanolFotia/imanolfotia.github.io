@@ -3,11 +3,7 @@ layout: default
 title: Gallery
 permalink: /gallery/
 ---
-<script type="text/javascript">
-	
 
-showSlides(slideIndex);
-</script>
 <script type="text/javascript">
 var slideIndex = 1;
 
@@ -41,6 +37,9 @@ window.onload = function()
 	alert("llega");
 }*/
 
+</script>
+<script type="text/javascript">
+showSlides(slideIndex);
 </script>
 
 <br><br><br><br>
