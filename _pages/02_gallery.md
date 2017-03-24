@@ -31,15 +31,15 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }	
 
-/*
+
 window.onload = function()
 {
 	alert("llega");
-}*/
+}
 
 </script>
 <script type="text/javascript">
-showSlides(slideIndex);
+alert(window.onload);
 </script>
 
 <br><br><br><br>
