@@ -33,7 +33,9 @@ function showSlides(n) {
 }	
 
 
-window.onload = currentSlide(2);
+document.addEventListener('DOMContentLoaded', function() {
+    showSlides(1);
+}, false);
 
 </script>
 
