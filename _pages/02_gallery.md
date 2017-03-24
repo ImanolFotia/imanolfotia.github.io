@@ -5,11 +5,11 @@ permalink: /gallery/
 ---
 <script type="text/javascript">
 	
-alert(window.onload);
-</script>>
-<script>
-var slideIndex = 1;
+
 showSlides(slideIndex);
+</script>
+<script type="text/javascript">
+var slideIndex = 1;
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
