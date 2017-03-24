@@ -34,7 +34,7 @@ function showSlides(n) {
 
 window.onload = function()
 {
-	alert("llega");
+	showSlides(1);
 }
 
 </script>
