@@ -44,13 +44,13 @@ function showSlides(n) {
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
     <img src="/media/gallery/img2.jpg" style="width:100%">
-    <div class="text">Early Screen Space Reflections</div>
+    <div class="text">Sponza Palace rendered in Epsilon</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
     <img src="/media/gallery/img3.jpg" style="width:100%">
-    <div class="text">Sponza Palace rendered in Epsilon</div>
+    <div class="text">Early Screen Space Reflections</div>
   </div>
 
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
