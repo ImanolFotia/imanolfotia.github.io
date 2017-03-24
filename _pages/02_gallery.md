@@ -32,7 +32,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }	
 
-
+alert(window.onload);
 window.onload = function()
 {
 	alert("llega");
