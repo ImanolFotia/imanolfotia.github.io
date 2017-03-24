@@ -33,7 +33,7 @@ function showSlides(n) {
 }	
 
 
-showSlides(1);
+window.onload = showSlides(1);
 
 </script>
 
