@@ -19,6 +19,6 @@ This one also uses signed distance fields and is implementing Oren-Nayar for the
 Plain and simple Mandelbrot set rendering.
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/MsjyzG?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
 
-<h4>Bokeh</h4>
-A very simple bokeh post processing effect achieved by evenly distributing points around the current fragment using sine and cosine functions.
-<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/Ms2yWy?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
+<h4>Wasted land</h4>
+An infinite wasted land, once again, raymarching primitives looking good!
+<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/MsSyDy?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
