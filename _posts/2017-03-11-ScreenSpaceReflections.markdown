@@ -38,14 +38,10 @@ noperspective in vec2 TexCoords;
 
 out vec4 outColor;
 
-const float rayStep = 0.1;
+const float step = 0.1;
 const float minRayStep = 0.1;
 const float maxSteps = 30;
-const float searchDist = 5;
-const float searchDistInv = 0.2;
 const int numBinarySearchSteps = 5;
-const float maxDDepth = 1.0;
-const float maxDDepthInv = 1.0;
 const float reflectionSpecularFalloffExponent = 3.0;
 
 float Metallic;
@@ -91,7 +87,7 @@ void main()
  
     vec3 wp = vec3(vec4(viewPos, 1.0) * invView);
     vec3 jitt = mix(vec3(0.0), vec3(hash(wp)), spec);
-    vec4 coords = RayCast((vec3(jitt) + reflected * max(minRayStep, -viewPos.z)), hitPos, dDepth);
+    vec4 coords = RayMarch((vec3(jitt) + reflected * max(minRayStep, -viewPos.z)), hitPos, dDepth);
  
  
     vec2 dCoords = smoothstep(0.2, 0.6, abs(vec2(0.5, 0.5) - coords.xy));
@@ -153,10 +149,10 @@ vec3 BinarySearch(inout vec3 dir, inout vec3 hitCoord, inout float dDepth)
     return vec3(projectedCoord.xy, depth);
 }
 
-vec4 RayCast(vec3 dir, inout vec3 hitCoord, out float dDepth)
+vec4 RayMarch(vec3 dir, inout vec3 hitCoord, out float dDepth)
 {
 
-    dir *= rayStep;
+    dir *= step;
  
  
     float depth;
@@ -179,12 +175,14 @@ vec4 RayCast(vec3 dir, inout vec3 hitCoord, out float dDepth)
         dDepth = hitCoord.z - depth;
 
         if((dir.z - dDepth) < 1.2)
-        if(dDepth <= 0.0)
-        {   
-            vec4 Result;
-            Result = vec4(BinarySearch(dir, hitCoord, dDepth), 1.0);
+        {
+            if(dDepth <= 0.0)
+            {   
+                vec4 Result;
+                Result = vec4(BinarySearch(dir, hitCoord, dDepth), 1.0);
 
-            return Result;
+                return Result;
+            }
         }
         
         steps++;
