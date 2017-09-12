@@ -15,7 +15,7 @@ This demo uses signed distance fields with raymarching to render the metaballs, 
 This one also uses signed distance fields and is implementing Oren-Nayar for the diffuse light contribution along with Cook-Torrance for the specular component.
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/MsSczh?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
 
-<h4>Mandelbrot Fractal</h4>
+<h4>Procedural Fire</h4>
 Procedural fire using Fractal brownian Motion and raymarching. Plus a LCD postprocess effect.
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/XllyW8?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
 
