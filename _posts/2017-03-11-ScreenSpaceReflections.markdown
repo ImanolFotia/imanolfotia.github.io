@@ -15,7 +15,7 @@ Soon I'll be posting a tutorial about this on my Youtube channel, so, if you are
 
 For now I'm gonna give you a presentation and the source code below!
 
-Don't forget to leave a comment about what you think!
+Don't forget to leave a comment about what you think! 
 
 <iframe src="https://www.slideshare.net/ImanolFotia/slideshelf" width="760px" height="570px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
 
