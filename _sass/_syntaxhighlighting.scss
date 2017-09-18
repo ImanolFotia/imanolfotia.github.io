@@ -19,28 +19,28 @@
 
   .c     { color: #998; font-style: italic } // Comment
   .err   { color: #a61717; background-color: #e3d2d2 } // Error
-  .k     { font-weight: bold } // Keyword
-  .o     { font-weight: bold } // Operator
+  .k     { font-weight: bold; color: #fff; } // Keyword
+  .o     { font-weight: bold; color: #fff; } // Operator
   .cm    { color: #998; font-style: italic } // Comment.Multiline
   .cp    { color: #999; font-weight: bold } // Comment.Preproc
   .c1    { color: #998; font-style: italic } // Comment.Single
   .cs    { color: #999; font-weight: bold; font-style: italic } // Comment.Special
   .gd    { color: #000; background-color: #fdd } // Generic.Deleted
   .gd .x { color: #000; background-color: #faa } // Generic.Deleted.Specific
-  .ge    { font-style: italic } // Generic.Emph
+  .ge    { font-style: italic; color: #fff; } // Generic.Emph
   .gr    { color: #a00 } // Generic.Error
   .gh    { color: #999 } // Generic.Heading
   .gi    { color: #000; background-color: #dfd } // Generic.Inserted
   .gi .x { color: #000; background-color: #afa } // Generic.Inserted.Specific
   .go    { color: #888 } // Generic.Output
   .gp    { color: #555 } // Generic.Prompt
-  .gs    { font-weight: bold } // Generic.Strong
+  .gs    { font-weight: bold; color: #fff; } // Generic.Strong
   .gu    { color: #aaa } // Generic.Subheading
   .gt    { color: #a00 } // Generic.Traceback
-  .kc    { font-weight: bold } // Keyword.Constant
-  .kd    { font-weight: bold } // Keyword.Declaration
-  .kp    { font-weight: bold } // Keyword.Pseudo
-  .kr    { font-weight: bold } // Keyword.Reserved
+  .kc    { font-weight: bold; color: #fff; } // Keyword.Constant
+  .kd    { font-weight: bold; color: #fff; } // Keyword.Declaration
+  .kp    { font-weight: bold; color: #fff; } // Keyword.Pseudo
+  .kr    { font-weight: bold; color: #fff; } // Keyword.Reserved
   .kt    { color: #458; font-weight: bold } // Keyword.Type
   .m     { color: #9981ff } // Literal.Number
   .s     { color: #d14 } // Literal.String
@@ -54,7 +54,7 @@
   .nn    { color: #555 } // Name.Namespace
   .nt    { color: #000080 } // Name.Tag
   .nv    { color: #008080 } // Name.Variable
-  .ow    { font-weight: bold } // Operator.Word
+  .ow    { font-weight: bold; color: #fff; } // Operator.Word
   .w     { color: #bbb } // Text.Whitespace
   .mf    { color: #9981ff } // Literal.Number.Float
   .mh    { color: #9981ff } // Literal.Number.Hex
