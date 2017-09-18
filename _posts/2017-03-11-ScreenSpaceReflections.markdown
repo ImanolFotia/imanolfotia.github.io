@@ -19,7 +19,7 @@ Don't forget to leave a comment about what you think!
 
 <iframe src="https://www.slideshare.net/ImanolFotia/slideshelf" width="760px" height="570px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
 
-{% highlight glsl %}
+{% highlight glsl linenos %}
 
 #version 400 core
 
