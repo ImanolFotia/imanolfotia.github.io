@@ -9,6 +9,12 @@
     background: #eef;
   }
 
+  .lineno { 
+    background: #654;
+    color: #099; 
+    padding-left: 5px;
+  } 
+
   .c     { color: #998; font-style: italic } // Comment
   .err   { color: #a61717; background-color: #e3d2d2 } // Error
   .k     { font-weight: bold } // Keyword
@@ -69,7 +75,4 @@
   .vi    { color: #008080 } // Name.Variable.Instance
   .il    { color: #099 } // Literal.Number.Integer.Long
   
-  .lineno { 
-    background: #654;
-    color: #099; } // Line.Number
 }
