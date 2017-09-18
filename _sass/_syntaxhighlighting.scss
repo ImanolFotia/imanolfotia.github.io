@@ -2,7 +2,7 @@
  * Syntax highlighting styles
  */
 .highlight {
-  background: #fff;
+  background: #272822;
   @extend %vertical-rhythm !optional;
 
   .highlighter-rouge & {
@@ -10,7 +10,7 @@
   }
 
   .lineno { 
-    background: #000;
+    background: #272822;
     color: #fff; 
     padding-right: 2px;
     align: right;
@@ -42,7 +42,7 @@
   .kp    { font-weight: bold } // Keyword.Pseudo
   .kr    { font-weight: bold } // Keyword.Reserved
   .kt    { color: #458; font-weight: bold } // Keyword.Type
-  .m     { color: #099 } // Literal.Number
+  .m     { color: #9981ff } // Literal.Number
   .s     { color: #d14 } // Literal.String
   .na    { color: #008080 } // Name.Attribute
   .nb    { color: #0086B3 } // Name.Builtin
@@ -56,10 +56,10 @@
   .nv    { color: #008080 } // Name.Variable
   .ow    { font-weight: bold } // Operator.Word
   .w     { color: #bbb } // Text.Whitespace
-  .mf    { color: #099 } // Literal.Number.Float
-  .mh    { color: #099 } // Literal.Number.Hex
-  .mi    { color: #099 } // Literal.Number.Integer
-  .mo    { color: #099 } // Literal.Number.Oct
+  .mf    { color: #9981ff } // Literal.Number.Float
+  .mh    { color: #9981ff } // Literal.Number.Hex
+  .mi    { color: #9981ff } // Literal.Number.Integer
+  .mo    { color: #9981ff } // Literal.Number.Oct
   .sb    { color: #d14 } // Literal.String.Backtick
   .sc    { color: #d14 } // Literal.String.Char
   .sd    { color: #d14 } // Literal.String.Doc
@@ -75,6 +75,6 @@
   .vc    { color: #008080 } // Name.Variable.Class
   .vg    { color: #008080 } // Name.Variable.Global
   .vi    { color: #008080 } // Name.Variable.Instance
-  .il    { color: #099 } // Literal.Number.Integer.Long
+  .il    { color: #9981ff } // Literal.Number.Integer.Long
   
 }
