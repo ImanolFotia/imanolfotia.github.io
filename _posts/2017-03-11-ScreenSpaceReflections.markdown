@@ -17,7 +17,7 @@ For now I'm gonna give you a presentation and the source code below!
 
 Don't forget to leave a comment about what you think! 
 
-<iframe src="https://www.slideshare.net/ImanolFotia/slideshelf" width="1000px" height="562px" align="center" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
+<iframe src="https://www.slideshare.net/ImanolFotia/slideshelf" width="850px" height="600px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
 
 {% highlight glsl linenos %}
 
