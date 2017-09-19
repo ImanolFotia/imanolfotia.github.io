@@ -13,7 +13,7 @@ This is how (at the moment) I handle SSR in my engine.
 
 Don't forget to susbcribe to my YouTube channel and leave a comment about what you think!
 
-<iframe width="1000px" height="562px" src="https://www.youtube.com/embed/K2rs7K4y_sY" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K2rs7K4y_sY" frameborder="0" allowfullscreen></iframe>
 
 {% highlight glsl linenos %}
 
