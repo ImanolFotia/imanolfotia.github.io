@@ -2,15 +2,15 @@
  * Syntax highlighting styles
  */
 .highlight {
-  background: #fff;;
+  background: #272822;
   @extend %vertical-rhythm !optional;
 
   .highlighter-rouge & {
-    background: #fff;;
+    background: #272822;
   }
 
   .lineno { 
-    background: #fff;;
+    background: #272822;
     color: #000; 
     padding-right: 2px;
     align: right;
