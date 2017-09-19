@@ -9,7 +9,7 @@ Hello everyone!
 
 This time I am updating the page with a rather tricky topic.
 
-This is how (at the moment) I handle SSR in my engine.
+This is how (at the moment) I handle SSR in my engine. 
 
 Don't forget to susbcribe to my YouTube channel and leave a comment about what you think!
 
