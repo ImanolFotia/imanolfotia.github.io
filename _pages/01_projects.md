@@ -4,6 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-Follow the development of my OpenGL game engine, Epsilon Engine.
+
+<h2><a href="{{ "/blog" | prepend: site.baseurl }}">Follow the development of my OpenGL game engine, Epsilon Engine.</a></h2>
 
 {% include image.html url="/media/Epsilon Engine.png" description="Epsilon Engine" width=720 align="center" %}
