@@ -51,6 +51,7 @@ eps{
     font-weight: bold;
   }
   a:hover {
+    color: $link-color;
     text-decoration: underline;
   }
 }
