@@ -43,6 +43,17 @@ a:hover {
 	color: #F2F2F2;
 	text-decoration: underline;
 }
+eps{
+  a, 
+  a:visited {
+    color: $link-color;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
 header {
 	background: $header;
 	padding: 0px 15px;
