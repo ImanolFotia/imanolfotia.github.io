@@ -47,6 +47,7 @@ eps{
   a, 
   a:visited {
     color: $link-color;
+    text-decoration: none;
     font-weight: bold;
   }
   a:hover {
