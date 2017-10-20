@@ -47,6 +47,14 @@ Because the engine uses a component based architecture, verything is an entity, 
 
 <center>{% include image.html url="/media/gallery/img2.jpg" description="Physically Based Rendering(PBR) workflow" width=720 align="left" %}</center>
 
+<h3>Renderer</h3>
+
+Epsilon Engine utilizes a hybrid Deferred-forward renderer, this allows the usage of transparency and other effects and optimizations. For opaque objects, the geometry pass stores all objects information in a large G-buffer, including global illumination and IBL data; An Uber shader is used in the lighting pass, this makes usage of the large data structure stored in the GPU that contains all lighting information needed for this pass. Epsilon Engine makes extensive usage of SSBOs(Shader Storage Buffer Object), allowing massive quantities of information stored in the GPU.
+The following passes are all modular, allowing to add or remove passes easily.
+For Screen Space Reflections, hardware mipmaping is heavily used to increase performance.
+For the forwared pass, both projected texturing transparency and buffer blending are supported. 
+Finally int he post-processig passes, the engine support a wide range of options, from FXAA for Anti-Aliasing to God rays and procedural lens flares, among others.
+
 <h3>Downloads</h3>
 
 Downloads will be available soon, the whole package will contain not only the main executables but also the engine's tools, such as scene editor, model and texture converter and the virtual file system packager.
