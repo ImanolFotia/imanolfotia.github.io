@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 Because starting a page with "hello world" would be too cliche, I will start this website with something more useful for us programmers, the Inverse Square Root:
 
-{% highlight c++ %}
+{% highlight c++ lineos%}
 float Q_rsqrt( float number )
 {
 	long i;
