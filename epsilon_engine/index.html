@@ -16,9 +16,12 @@ After game engines became more accesible for indie developers, Epsilon was in a 
 <ul>
   <li>Screen Space Ambient Oclussion</li>
   <li>Cook-Torrance specular lighting</li>
+  	Epsilon Engine uses Cook-Torrance BRDF for it's PBR renderer.
   <li>Oren-Nayar diffuse lighting</li>
   <li>Ambient and indirect lighting is encoded in 3rd order Spherical Harmonics</li>
+  	Floating point global illumination is captured from the scene and stored in Spherical Harmonics.
   <li>Screen Space Realtime Reflections</li>
+  	These reflections also take advantaje of localized reflection for a seamless transition when reflection information is missing. You can take a look at it's source code in <eps><a href="http://imanolfotia.com/blog/update/2017/03/11/ScreenSpaceReflections.html"/>this blog entry</eps>.
   <li>Octree space division for open areas</li>
   <li>Binary Space Partition Trees(BSP Trees) are used for indoor areas</li>
   <li>Bokeh Depht of Field(DoF) post-processing</li>
@@ -45,4 +48,4 @@ Because the engine uses a component based architecture, verything is an entity, 
 
 <h3>Downloads</h3>
 
-Downloads will be available soon, the whole package will contain not only the main executables but also the engine's tools, sush as scene editor, model and texture converter and the virtual file system packager.
+Downloads will be available soon, the whole package will contain not only the main executables but also the engine's tools, such as scene editor, model and texture converter and the virtual file system packager.
