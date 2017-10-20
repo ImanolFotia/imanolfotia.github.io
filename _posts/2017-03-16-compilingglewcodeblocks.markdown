@@ -13,7 +13,7 @@ Digging on the web, I found the following script that will make your life a bit 
 
 Just create a .bat file, paste the following content, and Voila!
 
-{% highlight batch lineos %}
+{% highlight c++ lineos %}
 
 gcc -DGLEW_NO_GLU -O2 -Wall -W -Iinclude  -DGLEW_BUILD -o src/glew.o -c src/glew.c
 gcc -fno-builtin -fno-stack-protector -shared -Wl,-soname,libglew32.dll -Wl,--out-implib,lib/libglew32.dll.a 
