@@ -7,7 +7,7 @@ layout: default
 Epsilon Engine© is a multi-platform, next-gen, on-development engine especifically designed to build high quality games and simulations. It uses OpenGL© 4.5 capabilities to deliver stunning graphics with great real time performance.
 It has been under development since 2015, and has constantly been catching up with the latest realtime, 3D techniques.
 It started as an alternative for Valve's © Source Engine ©, in attemps to develop a horror game.
-After game engines became more accesible for indie developers, Epsilon was in a short hitatus but it's development was quickly resumed.
+After game engines became more accesible for indie developers, Epsilon was in a short hiatus but it's development was quickly resumed.
 
 <center>{% include image.html url="/media/gallery/img1.jpg" description="Bokeh Depth of Field" width=900 align="center" %}</center>
 
@@ -43,17 +43,17 @@ After game engines became more accesible for indie developers, Epsilon was in a 
 Epsilon Engine© is written almost in its entirety in C++. It takes advantage of latests OpenGL© 4.5 capabilities and ensures a seamless experience in both Windows© and GNU/Linux.
 The engine is capable of simulate global illumination in real time.
 Integration of post-processing effects is easy, thanks to it's flexible modular design. 
-Because the engine uses a component based architecture, verything is an entity, and thus, models, sounds, effects, particles, etc, can be used to create a new entity, without having to write a single line of code to achieve a new creation. To extend even further these capabilities, the Epsilon Engine uses the Lua script language, with the posibility of each entity having it's own script and therefore, behaviour.
+Because the engine uses a component based architecture, everything is an entity, and thus, models, sounds, effects, particles, etc, can be used to create a new entity, without having to write a single line of code to achieve a new creation. To extend even further these capabilities, Epsilon Engine uses the Lua script language, with the posibility of each entity having it's own script and therefore, behaviour.
 
 <center>{% include image.html url="/media/gallery/img2.jpg" description="Physically Based Rendering(PBR) workflow" width=900 align="left" %}</center>
 
 <h3>Renderer</h3>
 
-Epsilon Engine utilizes a hybrid Deferred-forward renderer, this allows the usage of transparency and other effects and optimizations. For opaque objects, the geometry pass stores all objects information in a large G-buffer, including global illumination and IBL data; An Uber shader is used in the lighting pass, this makes usage of the large data structure stored in the GPU that contains all lighting information needed for this pass. Epsilon Engine makes extensive usage of SSBOs(Shader Storage Buffer Object), allowing massive quantities of information stored in the GPU.
+Epsilon Engine utilizes a hybrid deferred-forward renderer, this allows the usage of transparency and other effects and optimizations. For opaque objects, the geometry pass stores all objects' information in a large G-buffer, including global illumination and IBL data; An Uber shader is used in the lighting pass, this makes usage of the large data structure stored in the GPU that contains all lighting information needed for this pass. Epsilon Engine makes extensive usage of SSBOs(Shader Storage Buffer Object), allowing massive quantities of information stored in the GPU.
 The following passes are all modular, allowing to add or remove passes easily.
 For Screen Space Reflections, hardware mipmaping is heavily used to increase performance.
-For the forwared pass, both projected texturing transparency and buffer blending are supported. 
-Finally int he post-processig passes, the engine support a wide range of options, from FXAA for Anti-Aliasing to God rays and procedural lens flares, among others.
+For the forward pass, both projected texturing transparency and buffer blending are supported. 
+Finally in the post-processig passes, the engine support a wide range of options, from FXAA for Anti-Aliasing to God rays and procedural lens flares, among others.
 
 <center>{% include image.html url="/media/gallery/img4.jpg" description="God rays and procedural lens flares" width=900 align="left" %}</center>
 
