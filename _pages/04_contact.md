@@ -8,9 +8,9 @@ permalink: /contact/
 
 Have any doubt? Send me an email!
 
-My e-mail is [imanolfotia@gmail.com](mailto:imanolfotia@gmail.com).
+My e-mail is <eps><a href="mailto:imanolfotia@gmail.com">imanolfotia@gmail.com</a></eps>.
 
-You can also contact me from [my YouTube channel](https://www.youtube.com/user/imanolfotia), I'm very active there!
+You can also contact me from <eps><a href="https://www.youtube.com/user/imanolfotia">my YouTube channel</a></eps>, I'm very active there!
 
 <h2><center>Follow Me</center></h2>
 
