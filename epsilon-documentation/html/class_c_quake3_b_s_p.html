@@ -50,7 +50,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -71,10 +72,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -109,17 +110,18 @@ $(document).ready(function(){initNavTree('class_c_quake3_b_s_p.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-attribs">Data Fields</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
-<a href="class_c_quake3_b_s_p-members.html">List of all members</a>  </div>
+<a href="#pri-attribs">Private Attributes</a>  </div>
   <div class="headertitle">
 <div class="title">CQuake3BSP Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Collaboration diagram for CQuake3BSP:</div>
-<div class="dyncontent">
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Collaboration diagram for CQuake3BSP:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="class_c_quake3_b_s_p__coll__graph.png" border="0" usemap="#_c_quake3_b_s_p_coll__map" alt="Collaboration graph"/></div>
 <map name="_c_quake3_b_s_p_coll__map" id="_c_quake3_b_s_p_coll__map">
 <area shape="rect" id="node2" href="structt_b_s_p_vertex.html" title="This is our BSP vertex structure. " alt="" coords="784,12,875,39"/>
@@ -155,7 +157,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Destroy</b> ()</td></
 <tr class="separator:aa61b5bb7e4dfe39ce88a023f438cbe77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
+Data Fields</h2></td></tr>
 <tr class="memitem:ab3535b50e4d79b894aad24c1960ad718"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab3535b50e4d79b894aad24c1960ad718"></a>
 <a class="el" href="class_c_frustum.html">CFrustum</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Frustum</b></td></tr>
 <tr class="separator:ab3535b50e4d79b894aad24c1960ad718"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -318,9 +320,11 @@ GLuint&#160;</td><td class="memItemRight" valign="bottom"><b>NormalTextureID</b>
 <p>cout &lt;&lt; "Number of lightmaps : " &lt;&lt; lumps[kLightmaps].length / sizeof(tBSPLightmap) &lt;&lt; endl;</p>
 <p>Used to Smooth the normals of the whole BSP map </p>
 
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
+<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="class_c_quake3_b_s_p_a63f458d8e84eb5a4f0432460c849ba75_cgraph.png" border="0" usemap="#class_c_quake3_b_s_p_a63f458d8e84eb5a4f0432460c849ba75_cgraph" alt=""/></div>
 <map name="class_c_quake3_b_s_p_a63f458d8e84eb5a4f0432460c849ba75_cgraph" id="class_c_quake3_b_s_p_a63f458d8e84eb5a4f0432460c849ba75_cgraph">
 <area shape="rect" id="node2" href="class_b_s_p_face.html#a4ae99df1fc45845b5a3049c73eb6ae25" title="BSPFace::BuildFace" alt="" coords="220,31,364,57"/>

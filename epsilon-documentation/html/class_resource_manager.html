@@ -50,7 +50,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -71,10 +72,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -109,16 +110,17 @@ $(document).ready(function(){initNavTree('class_resource_manager.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
-<a href="class_resource_manager-members.html">List of all members</a>  </div>
+<a href="#pub-attribs">Data Fields</a> &#124;
+<a href="#pri-attribs">Private Attributes</a>  </div>
   <div class="headertitle">
 <div class="title">ResourceManager Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Collaboration diagram for ResourceManager:</div>
-<div class="dyncontent">
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Collaboration diagram for ResourceManager:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="class_resource_manager__coll__graph.png" border="0" usemap="#_resource_manager_coll__map" alt="Collaboration graph"/></div>
 <map name="_resource_manager_coll__map" id="_resource_manager_coll__map">
 <area shape="rect" id="node4" href="class_terrain.html" title="Terrain" alt="" coords="605,251,666,277"/>
@@ -222,7 +224,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>addCubemap</b> (std::
 <tr class="separator:a27054eafe78f53df38abf67e6f052569"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
+Data Fields</h2></td></tr>
 <tr class="memitem:a80b2ea2f322e1431bbc59b2a2a994d11"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a80b2ea2f322e1431bbc59b2a2a994d11"></a>
 std::shared_ptr&lt; <a class="el" href="class_camera.html">Camera</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_Camera</b></td></tr>
 <tr class="separator:a80b2ea2f322e1431bbc59b2a2a994d11"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -436,9 +438,11 @@ unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>textureCounte
 
 <p>When there is no more queued commands, all the texture are loaded in order of assignment. </p>
 
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
+<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="class_resource_manager_ad45541223c9f21701bf75107c5369203_cgraph.png" border="0" usemap="#class_resource_manager_ad45541223c9f21701bf75107c5369203_cgraph" alt=""/></div>
 <map name="class_resource_manager_ad45541223c9f21701bf75107c5369203_cgraph" id="class_resource_manager_ad45541223c9f21701bf75107c5369203_cgraph">
 <area shape="rect" id="node2" href="class_resource_manager.html#a3d5f5a1f1ba52642b5e39b0c51c970f7" title="Loads a texture from disk or assign the ID if it&#39;s already loaded. " alt="" coords="257,5,436,47"/>
@@ -632,9 +636,11 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Path of the loaded texture </dd></dl>
 
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="class_resource_manager_a3d5f5a1f1ba52642b5e39b0c51c970f7_icgraph.png" border="0" usemap="#class_resource_manager_a3d5f5a1f1ba52642b5e39b0c51c970f7_icgraph" alt=""/></div>
 <map name="class_resource_manager_a3d5f5a1f1ba52642b5e39b0c51c970f7_icgraph" id="class_resource_manager_a3d5f5a1f1ba52642b5e39b0c51c970f7_icgraph">
 <area shape="rect" id="node2" href="class_resource_manager.html#ad45541223c9f21701bf75107c5369203" title="When there is no more queued commands, all the texture are loaded in order of assignment. " alt="" coords="232,5,436,47"/>
@@ -923,7 +929,7 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
+<h2 class="groupheader">Field Documentation</h2>
 <a class="anchor" id="a9e21ce059a8812bb3afe957f75a3120b"></a>
 <div class="memitem">
 <div class="memproto">

@@ -4,15 +4,18 @@ var NAVTREE =
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ]
     ] ],
-    [ "Classes", "annotated.html", [
-      [ "Class List", "annotated.html", "annotated_dup" ],
-      [ "Class Index", "classes.html", null ],
+    [ "Data Structures", "annotated.html", [
+      [ "Data Structures", "annotated.html", "annotated_dup" ],
+      [ "Data Structure Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
-      [ "Class Members", "functions.html", [
+      [ "Data Fields", "functions.html", [
         [ "All", "functions.html", null ],
         [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ]
       ] ]
+    ] ],
+    [ "Files", null, [
+      [ "File List", "files.html", "files" ]
     ] ]
   ] ]
 ];
@@ -20,13 +23,14 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"class_camera.html#acdf18835a138363721f33a6d3bf085b2",
-"class_epsilon.html#a64c6ffc39309ac06ba984f676f34caa5",
-"class_m_d5_animation.html#affa602032e56507139361d8678c7627e",
-"class_physics_1_1_player_controlled_physics_object.html#a8b8fb9132bf7f351dc36d66fb817926b",
-"class_resource_manager.html#a6e25cafdac62920c553b570604812650",
-"class_thread_1_1_thread.html#ae5b9f1cedc70caff152c8a14ff5741c3",
-"struct_m_d5_model_1_1_weight.html#ad3caaf7d088dc5d9b241f94da870779c"
+"class_c_quake3_b_s_p.html#a3abb90858963d1d795b5e5e33a152f92",
+"class_e_f_s_1_1_filesystem.html#a10dd5c2700f94f89c52aba2d3a956599",
+"class_input_1_1_key_board.html#a6c2c9067a6ed773f57143cfe81abba12",
+"class_particle_proxy.html#ac1003f27c030a6500f474f6166dace1f",
+"class_post_process_1_1_s_s_a_o.html#a508263f5a3cc0f76c36da322d034afbc",
+"class_sun.html#a56b11001a0b61e52cb51312907c25a9d",
+"struct_face.html",
+"structt_b_s_p_face.html#a9df7252c3d4a9c8205f2b7ef8234b153"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
