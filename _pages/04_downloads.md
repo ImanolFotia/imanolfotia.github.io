@@ -39,6 +39,9 @@ int main(int argc, char** argv)
   return 0;
 }
 
+{% endhighlight %}
+
 Available under the MIT License.
 
-{% endhighlight %}
+Download the [source code](https://github.com/ImanolFotia/Epsilon-Virtual-File-System).
+Download [binaries](https://github.com/ImanolFotia/Epsilon-Virtual-File-System/blob/master/bin/Debug/VFS.zip?raw=true).
