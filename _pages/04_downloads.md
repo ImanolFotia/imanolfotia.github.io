@@ -4,7 +4,7 @@ title: Downloads
 permalink: /downloads/
 ---
 
-<h1>Epsilon Virtual File System </h1>
+<h2>Epsilon Virtual File System </h2>
 
 Lightweight library made for easy access to .zip files within C++.
 
@@ -12,7 +12,7 @@ Both Stored and compressed data is supported.
 
 It uses Zlib Inflation/Deflation algorithms.
 
-<h2>Usage Example</h2>
+<h3>Usage Example</h3>
 
 {% highlight c++ linenos %}
 #include <filesystem.h>
