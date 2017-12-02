@@ -205,4 +205,4 @@ vec3 hash(vec3 a)
 
 Yes, this is the whole thing!
 
-MIT Licensed
+GNU General Public License v3.0 Licensed
