@@ -2,7 +2,8 @@
 <script src="https://ttv-api.s3.amazonaws.com/twitch.min.js"></script>
 
 <script>
-  Twitch.init({clientId: 'YOUR_CLIENT_ID_HERE'}, function(error, status) {
+	var clientID;
+  Twitch.init({clientId: clientID}, function(error, status) {
     // the sdk is now loaded
   });
 </script>
@@ -41,3 +42,6 @@ Twitch.getStatus(function(err, status) {
   }
 });
 </script>
+
+
+<input type="input" id="clientID" name="cliV" value="">
