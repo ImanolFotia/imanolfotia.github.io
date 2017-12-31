@@ -20,15 +20,13 @@ $('.twitch-connect').click(function() {
 if (status.authenticated) {
   // Already logged in, hide button
   $('.twitch-connect').hide()
-
-  Twitch.api({method: 'channel'}, function(error, channel) {
-  console.log(channel.stream_key);
-});
 }
 
 
 
-
+Twitch.api({method: 'channel'}, function(error, channel) {
+  console.log(channel.stream_key);
+});
 
 Twitch.getStatus(function(err, status) {
   if (status.authenticated) {
