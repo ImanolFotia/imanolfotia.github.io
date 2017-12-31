@@ -14,16 +14,6 @@
 
 <img src="http://ttv-api.s3.amazonaws.com/assets/connect_dark.png" class="twitch-connect" href="#" />
 <script>
-$('.twitch-connect').click(function() {
-  Twitch.login({
-    scope: ['user_read', 'channel_read']
-  });
-})
-
-if (status.authenticated) {
-  // Already logged in, hide button
-  $('.twitch-connect').hide()
-}
 
 Twitch.init({clientId: clientID}, function(error, status) {
   if (error) {
@@ -35,6 +25,19 @@ Twitch.init({clientId: clientID}, function(error, status) {
     // user is currently logged in
   }
 });
+
+$('.twitch-connect').click(function() {
+  Twitch.login({
+    scope: ['user_read', 'channel_read']
+  });
+})
+
+if (status.authenticated) {
+  // Already logged in, hide button
+  $('.twitch-connect').hide()
+}
+
+
 
 Twitch.api({method: 'channel'}, function(error, channel) {
   console.log(channel.stream_key);
