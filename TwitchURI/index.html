@@ -3,6 +3,10 @@
 
 <script>
 	var clientID;
+	function setClientId(){
+		clientID = document.getElementById("cliV").value;
+	}
+	
   Twitch.init({clientId: clientID}, function(error, status) {
     // the sdk is now loaded
   });
@@ -44,4 +48,5 @@ Twitch.getStatus(function(err, status) {
 </script>
 
 
-<input type="input" id="clientID" name="cliV" value="">
+<input type="input" id="cliV" name="cliV" value="">
+<input type="button" name="Submit" value="INPUT" onclick="add_col();" />
