@@ -21,7 +21,7 @@ if (status.authenticated) {
   $('.twitch-connect').hide()
 }
 
-Twitch.init({clientId: 'YOUR_CLIENT_ID_HERE'}, function(error, status) {
+Twitch.init({clientId: clientID}, function(error, status) {
   if (error) {
     // error encountered while loading
     console.log(error);
