@@ -10,7 +10,7 @@
     // the sdk is now loaded
   });
 
-		  
+
 $('.twitch-connect').click(function() {
   Twitch.login({
     scope: ['user_read', 'channel_read']
@@ -23,11 +23,11 @@ if (status.authenticated) {
 }
 
 
-
+/*
 Twitch.api({method: 'channel'}, function(error, channel) {
   console.log(channel.stream_key);
 });
-
+*/
 Twitch.getStatus(function(err, status) {
   if (status.authenticated) {
     console.log('authenticated!');
