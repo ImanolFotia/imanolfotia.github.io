@@ -1,0 +1,43 @@
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script src="https://ttv-api.s3.amazonaws.com/twitch.min.js"></script>
+
+<script>
+  Twitch.init({clientId: 'YOUR_CLIENT_ID_HERE'}, function(error, status) {
+    // the sdk is now loaded
+  });
+</script>
+
+<img src="http://ttv-api.s3.amazonaws.com/assets/connect_dark.png" class="twitch-connect" href="#" />
+<script>
+$('.twitch-connect').click(function() {
+  Twitch.login({
+    scope: ['user_read', 'channel_read']
+  });
+})
+
+if (status.authenticated) {
+  // Already logged in, hide button
+  $('.twitch-connect').hide()
+}
+
+Twitch.init({clientId: 'YOUR_CLIENT_ID_HERE'}, function(error, status) {
+  if (error) {
+    // error encountered while loading
+    console.log(error);
+  }
+  // the sdk is now loaded
+  if (status.authenticated) {
+    // user is currently logged in
+  }
+});
+
+Twitch.api({method: 'channel'}, function(error, channel) {
+  console.log(channel.stream_key);
+});
+
+Twitch.getStatus(function(err, status) {
+  if (status.authenticated) {
+    console.log('authenticated!');
+  }
+});
+</script>
