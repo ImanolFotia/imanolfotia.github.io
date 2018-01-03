@@ -4,22 +4,20 @@
 <script src="//code.jquery.com/jquery.min.js"></script>
 <script src="https://ttv-api.s3.amazonaws.com/twitch.min.js"></script>
 <script>
-	var clientID;
-	function setClientId(){
-		clientID = document.getElementById("cliV").value;
 
-		  Twitch.init({clientId: clientID}, function(error, status) {
+var url_string = window.location.href; //window.location.href
+var url = new URL(url_string);
+var c = url.searchParams.get("clientID");
+console.log(c);
+
+
+var clientID;
+function setClientId(){
+  clientID = document.getElementById("cliV").value;
+
+    Twitch.init({clientId: clientID}, function(error, status) {
     // the sdk is now loaded
-  });
-
-$.post("www.imanolfotia.com/TwitchURI",
-        {
-          name: "Donald Duck",
-          city: "Duckburg"
-        },
-        function(data,status){
-            alert("Data: " + data + "\nStatus: " + status);
-        });
+});
 
 
 $('.twitch-connect').click(function() {
