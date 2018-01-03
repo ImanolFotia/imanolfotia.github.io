@@ -12,6 +12,15 @@
     // the sdk is now loaded
   });
 
+$.post("www.imanolfotia.com/TwitchURI",
+        {
+          name: "Donald Duck",
+          city: "Duckburg"
+        },
+        function(data,status){
+            alert("Data: " + data + "\nStatus: " + status);
+        });
+
 
 $('.twitch-connect').click(function() {
   Twitch.login({
@@ -41,20 +50,6 @@ Twitch.getStatus(function(err, status) {
 </script>
 
 <img src="http://ttv-api.s3.amazonaws.com/assets/connect_dark.png" class="twitch-connect" href="#" />
-<script>
-/*
-Twitch.init({clientId: clientID}, function(error, status) {
-  if (error) {
-    // error encountered while loading
-    console.log(error);
-  }
-  // the sdk is now loaded
-  if (status.authenticated) {
-    // user is currently logged in
-  }
-});
-*/
-</script>
 
 
 <input type="input" id="cliV" name="cliV" value="">
