@@ -27,6 +27,7 @@ github_username:  imanolfotia
 sass:
   sassdir: _sass
 include: ['_pages']
+include: ['_pages/Bison-Software']
 markdown: kramdown
 kramdown:
   input: GFM
