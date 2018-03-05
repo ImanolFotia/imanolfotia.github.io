@@ -7,7 +7,7 @@ categories: Blog Update
 
 <h2>Setting Up the G-buffer</h2>
 Epsilon Engine uses a deferred renderer, this means that instead of calculating the lighting for each pixel, the different properties of the objects(Normals, Position, etc.) are stores in several render targets, this is called a geometry buffer (G-Buffer).
-{% include image.html url="/media/gbuffer.png"width=900 align="right" %}
+{% include image.html url="/media/gbuffer.png" description="" width=720 align="center" %}
 <h2>Ambient Capture</h2>
 
 <h2>Geometry Pass</h2>
