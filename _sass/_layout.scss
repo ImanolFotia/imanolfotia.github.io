@@ -69,6 +69,21 @@ header {
     background-size: cover;
     position: relative;
 }
+header_bison_css {
+  background: $header;
+  padding: 0px 15px;
+  text-align: center;
+  margin: 50px 0 0;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/media/Bison_main.jpeg");
+  background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
 
 .video-container {
   position:relative;
