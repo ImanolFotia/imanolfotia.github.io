@@ -4,25 +4,12 @@
 <script src="//code.jquery.com/jquery.min.js"></script>
 <script src="https://ttv-api.s3.amazonaws.com/twitch.min.js"></script>
 <script>
-var url_string = window.location.href; //window.location.href
-var url = new URL(url_string);
-var c = 'axjhfp777tflhy0yjb5sftsil';
-console.log(c);
-  $.ajax({
- type: 'GET',
- url: 'https://api.twitch.tv/kraken/channels/twitch',
- headers: {
-   'Client-ID': 'axjhfp777tflhy0yjb5sftsil'
- },
- success: function(data) {
-   console.log(data);
- }
-});
-var clientID;
-  clientID = c;
-    Twitch.init({clientId: clientID}, function(error, status) {
-    console.log("Log in succesful!");
-});
+  var clientID = 'zl18i91h5xswem8dhj07hl85v3th3e';
+  function setClientId(){
+    clientID = document.getElementById("cliV").value;
+      Twitch.init({clientId: clientID}, function(error, status) {
+    // the sdk is now loaded
+  });
 $('.twitch-connect').click(function() {
   Twitch.login({
     scope: ['user_read', 'channel_read']
@@ -33,18 +20,20 @@ if (status.authenticated) {
   $('.twitch-connect').hide()
 }
 Twitch.api({method: 'channel'}, function(error, channel) {
-  //console.log(channel.stream_key);
+  console.log(channel.stream_key);
 });
 Twitch.getStatus(function(err, status) {
   if (status.authenticated) {
     console.log('authenticated!');
   }
 });
+  }
   
 </script>
 
 <img src="http://ttv-api.s3.amazonaws.com/assets/connect_dark.png" class="twitch-connect" href="#" />
-
+<script>
+</script>
 
 </body>
 </html>
