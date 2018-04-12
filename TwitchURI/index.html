@@ -21,7 +21,7 @@ console.log(c);
 var clientID;
   clientID = c;
     Twitch.init({clientId: clientID}, function(error, status) {
-    // the sdk is now loaded
+    console.log("Log in succesful!");
 });
 $('.twitch-connect').click(function() {
   Twitch.login({
@@ -33,7 +33,7 @@ if (status.authenticated) {
   $('.twitch-connect').hide()
 }
 Twitch.api({method: 'channel'}, function(error, channel) {
-  console.log(channel.stream_key);
+  //console.log(channel.stream_key);
 });
 Twitch.getStatus(function(err, status) {
   if (status.authenticated) {
