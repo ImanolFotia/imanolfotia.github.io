@@ -5,9 +5,8 @@
 <script src="https://ttv-api.s3.amazonaws.com/twitch.min.js"></script>
 <script>
   var clientID = 'zl18i91h5xswem8dhj07hl85v3th3e';
-  function setClientId(){
-    clientID = document.getElementById("cliV").value;
-      Twitch.init({clientId: clientID}, function(error, status) {
+
+  Twitch.init({clientId: clientID}, function(error, status) {
     // the sdk is now loaded
   });
 $('.twitch-connect').click(function() {
@@ -27,7 +26,7 @@ Twitch.getStatus(function(err, status) {
     console.log('authenticated!');
   }
 });
-  }
+  
   
 </script>
 
