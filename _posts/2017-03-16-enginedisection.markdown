@@ -5,7 +5,7 @@ date: 2018-3-4 9:58 -0300
 categories: Blog Update
 ---
 
-This Post is not yet completed
+<h1>This Post is not yet completed</h1>
 
 <h2>Setting Up the G-buffer</h2>
 Epsilon Engine uses a deferred renderer, this means that instead of calculating the lighting for each pixel, the different properties of the objects(Normals, Position, etc.) are stores in several render targets, this is called a geometry buffer (G-Buffer).
@@ -18,6 +18,7 @@ Epsilon Engine utilizes a hybrid deferred-forward renderer, this allows the usag
 
 <h2>Screen Space Ambient Oclussion</h2>
 Screen Space Ambient Occlusion darkens areas where ambient lighting does not reach, this can ber holes or concave corners. Epsilon Engine has two options for this effect, a the original Crytek's SSAO algorithm, with cone-trancing instead of sphere tracing, and Nvidia's Horizon Based Ambient Occlusion.
+
 <h2>Lighting Pass</h2>
 
 <h2>Reflections</h2>

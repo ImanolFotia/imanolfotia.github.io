@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+    <style>
+        body {
+            
+            font-family: 'Helvetica', 'Arial', sans-serif;
+            background-image: url("C:/Users/Imanol/Documents/Code/Web/scoreboard/img/background.jpg");
+            background-repeat: no-repeat;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container-fluid" style="height: 100%;">
+
+
+        <!--<img style="margin: 2%; width: 100%; height: 100%; max-width: 700px;" src="C:\Users\Imanol\Documents\Code\Web\scoreboard/img/logo.png">-->
+
+
+        <div class="row">
+            <div class="col-6">
+                <div class="container" style="height: 100%; background-color: transparent">
+
+                    <div class="row justify-content-center">
+                        <div class="col-auto" style="margin: 20px;">
+                            <img style="height: 150px; width: auto;;" src="C:\Users\Imanol\Documents\Code\Web\scoreboard/img/banner.png">
+                            <input type="text" class="form-control" placeholder="Player 1" aria-label="Username" aria-describedby="basic-addon1" style="text-align: center;position: absolute;left: 30%; top: 20px; max-width: 170px; background-color: transparent; border-color: transparent; font-size: 30px; font-weight: bold;">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center" style="max-height: 420px;">
+                        <div class="col-auto">
+                            <div id="btnNilfgaard" style="z-index: 5; font-size: 300px; height: auto;" class="btn">0</div>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-start">
+                        <div class="col-auto">
+                            <div id="right" data-interval="false" data-ride="true" class="carousel slide" style="z-index: 5;  width: 250px; height: auto;">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" src="C:\Users\Imanol\Documents\Code\Web\scoreboard/img/Nilfgaard_Icon.png " alt="Nilfgaard">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="C:\Users\Imanol\Documents\Code\Web\scoreboard/img/Northern_Realms_Icon.png" alt="Northern Realms">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="C:\Users\Imanol\Documents\Code\Web\scoreboard/img/monsters.jpg" alt="Scoia tael">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="C:\Users\Imanol\Documents\Code\Web\scoreboard/img/Scoia'Tael_Icon.png" alt="Scoia tael">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#right" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                </a>
+                                <a class="carousel-control-next" href="#right" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+
+                <div class="container" style="width: 100%; height: 100%; background-color: transparent">
+
+                    <div class="row justify-content-center">
+                        <div class="col-auto" style="margin: 20px;">
+                            <img style="height: 150px; width: auto;;" src="C:\Users\Imanol\Documents\Code\Web\scoreboard/img/banner.png">
+                            <input type="text" class="form-control" placeholder="Player 2" aria-label="Username" aria-describedby="basic-addon1" style="text-align: center;position: absolute;left: 30%; top: 20px; max-width: 170px; background-color: transparent; border-color: transparent; font-size: 30px; font-weight: bold;">
+
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center" style="max-height: 420px;">
+                        <div class="col-auto">
+                            <div id="btnNorthern" style="z-index: 5; font-size: 300px;" class="btn">0</div>
+                        </div>
+                    </div>
+                    <!--<img style="z-index: 5; position: fixed; bottom: 0; right: 70.5%; width: 250px; height: auto;" src="C:\Users\Imanol\Documents\Code\Web\scoreboard/img/Nilfgaard_Icon.png ">-->
+
+                    <div class="row justify-content-end">
+                        <div class="col-auto">
+                            <div id="left" data-interval="false" data-ride="true" class="carousel slide" style="z-index: 5;width: 250px; height: auto;">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" src="C:\Users\Imanol\Documents\Code\Web\scoreboard/img/Nilfgaard_Icon.png " alt="Nilfgaard">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="C:\Users\Imanol\Documents\Code\Web\scoreboard/img/Northern_Realms_Icon.png" alt="Northern Realms">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="C:\Users\Imanol\Documents\Code\Web\scoreboard/img/monsters.jpg" alt="Scoia tael">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="C:\Users\Imanol\Documents\Code\Web\scoreboard/img/Scoia'Tael_Icon.png" alt="Scoia tael">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#left" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                </a>
+                                <a class="carousel-control-next" href="#left" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="btn0" class="btn btn-danger" data-toggle="button" style="position: fixed; right: 40%; width: 100px; top: 50%; height: auto;"><img
+                style="position: fixed; right: 40%; width: 100px; top: 50%;" src="C:\Users\Imanol\Documents\Code\Web\scoreboard/img/gem.png"></div>
+        <div id="btn1" class="btn btn-danger" data-toggle="button" style="position: fixed; right: 40%; width: 100px; top: 60%;"><img
+                style="position: fixed; right: 40%; width: 100px; top: 60%;" src="C:\Users\Imanol\Documents\Code\Web\scoreboard/img/gem.png">            </div>
+        <div id="btn2" class="btn btn-danger" style="position: fixed; left: 40%; width: 100px; top: 50%;" data-toggle="button"><img
+                style="position: fixed; left: 40%; width: 100px; top: 50%;" src="C:\Users\Imanol\Documents\Code\Web\scoreboard/img/gem.png"></div>
+        <div id="btn3" class="btn btn-danger" style="position: fixed; left: 40%; width: 100px; top: 60%;" data-toggle="button"><img
+                style="position: fixed; left: 40%; width: 100px; top: 60%;" src="C:\Users\Imanol\Documents\Code\Web\scoreboard/img/gem.png"></div>
+    </div>
+
+    <script>
+        window.onload = () => {
+            var btnNilfgaard = document.getElementById("btnNilfgaard");
+            btnNilfgaard.onclick = () => {
+                btnNilfgaard.innerHTML = Number(btnNilfgaard.innerHTML) + 1;
+            }
+
+            var btnNorthern = document.getElementById("btnNorthern");
+            btnNorthern.onclick = () => {
+                btnNorthern.innerHTML = Number(btnNorthern.innerHTML) + 1;
+            }
+
+            var btn0 = document.getElementById("btn0");
+            btn0.onclick = () => { $('#btn0').removeClass('btn-danger'); $('#btn0').addClass('btn-warning'); btnNilfgaard.innerHTML = 0; btnNorthern.innerHTML = 0; };
+            var btn1 = document.getElementById("btn1");
+            btn1.onclick = () => { $('#btn1').removeClass('btn-danger'); $('#btn1').addClass('btn-warning'); btnNilfgaard.innerHTML = 0; btnNorthern.innerHTML = 0; };
+            var btn2 = document.getElementById("btn2");
+            btn2.onclick = () => { $('#btn2').removeClass('btn-danger'); $('#btn2').addClass('btn-warning'); btnNilfgaard.innerHTML = 0; btnNorthern.innerHTML = 0; };
+            var btn3 = document.getElementById("btn3");
+            btn3.onclick = () => { $('#btn3').removeClass('btn-danger'); $('#btn3').addClass('btn-warning'); btnNilfgaard.innerHTML = 0; btnNorthern.innerHTML = 0; };
+
+        };
+        function getRandomInt(max) {
+            return Math.floor(Math.random() * Math.floor(max));
+        }
+
+        function flipCoin() {
+            var res = getRandomInt(2);
+
+        }
+    </script>
+</body>
+
+</html>
