@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Incursing into hardware emulation"
+title: "My First Emulator"
 date: 2018-10-29 9:58 -0300
 categories: hardware emulation
 ---
 
-#Creating my First Emulator
+# Venturing into Hardware Emulation
 
 ![Image](https://raw.githubusercontent.com/ImanolFotia/Chip-8-Emulator/master/captures/c1.png)
 
@@ -20,7 +20,7 @@ Anyway, Chip-8 thought me way more than I thought it would, giving me the tools 
 ### A little piece of advice
 After finally finishing the project in about 4 days, I wanted to remark a few things that I would've liked someone put out there to lead me in some of the issues I ran into, for that, I've created **[this file](https://gist.github.com/ImanolFotia/2dc0cdf3f65cc4abaf21ab3673f0d553)**, it contains common mistakes that I've made and seen in another people's projects. I hope you find it useful if your own emulator is acting weird, don't forget to comment about it in the bottom of the page.
 
-###Some Screenshots
+### Some Screenshots
 
 ## Screenshots
 
