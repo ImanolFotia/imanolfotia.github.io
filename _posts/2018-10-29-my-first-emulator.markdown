@@ -33,7 +33,7 @@ After finally finishing the project in about 4 days, I wanted to remark a few th
 **Maze**
 ![Image](https://raw.githubusercontent.com/ImanolFotia/Chip-8-Emulator/master/captures/c4.png "Maze")  
 
-###Download
+### Download
 
 You can find the full source code **[here](http://imanolfotia.com/Chip-8-Emulator)**, including a binary release.
 
