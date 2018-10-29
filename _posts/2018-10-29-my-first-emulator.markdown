@@ -20,18 +20,16 @@ Anyway, Chip-8 thought me way more than I thought it would, giving me the tools 
 ### A little piece of advice
 After finally finishing the project in about 4 days, I wanted to remark a few things that I would've liked someone put out there to lead me in some of the issues I ran into, for that, I've created **[this file](https://gist.github.com/ImanolFotia/2dc0cdf3f65cc4abaf21ab3673f0d553)**, it contains common mistakes that I've made and seen in another people's projects. I hope you find it useful if your own emulator is acting weird, don't forget to comment about it in the bottom of the page.
 
-### Some Screenshots
-
-## Screenshots
+### Screenshots
 
 **Space Invaders**
-![Image](https://raw.githubusercontent.com/ImanolFotia/Chip-8-Emulator/master/captures/c3.png "Space Invaders")  
+![Image](https://raw.githubusercontent.com/ImanolFotia/Chip-8-Emulator/master/captures/c3.png | width=250 "Space Invaders")  
 
 **Tetris**
-![Image](https://raw.githubusercontent.com/ImanolFotia/Chip-8-Emulator/master/captures/c2.png "Tetris")  
+![Image](https://raw.githubusercontent.com/ImanolFotia/Chip-8-Emulator/master/captures/c2.png | width=250 "Tetris")  
 
 **Maze**
-![Image](https://raw.githubusercontent.com/ImanolFotia/Chip-8-Emulator/master/captures/c4.png "Maze")  
+![Image](https://raw.githubusercontent.com/ImanolFotia/Chip-8-Emulator/master/captures/c4.png| width=250 "Maze")  
 
 ### Download
 
