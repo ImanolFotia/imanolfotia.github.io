@@ -23,13 +23,13 @@ After finally finishing the project in about 4 days, I wanted to remark a few th
 ### Screenshots
 
 **Space Invaders**
-![Image](https://raw.githubusercontent.com/ImanolFotia/Chip-8-Emulator/master/captures/c3.png | width=250 "Space Invaders")  
+![](https://raw.githubusercontent.com/ImanolFotia/Chip-8-Emulator/master/captures/c3.png =100x20 "Space Invaders")  
 
 **Tetris**
-![Image](https://raw.githubusercontent.com/ImanolFotia/Chip-8-Emulator/master/captures/c2.png | width=250 "Tetris")  
+![](https://raw.githubusercontent.com/ImanolFotia/Chip-8-Emulator/master/captures/c2.png =100x20 "Tetris")  
 
 **Maze**
-![Image](https://raw.githubusercontent.com/ImanolFotia/Chip-8-Emulator/master/captures/c4.png| width=250 "Maze")  
+![](https://raw.githubusercontent.com/ImanolFotia/Chip-8-Emulator/master/captures/c4.png=100x20 "Maze")  
 
 ### Download
 
