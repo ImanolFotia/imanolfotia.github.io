@@ -7,7 +7,7 @@ categories: hardware emulation
 
 # Venturing into Hardware Emulation
 
-![Image](https://raw.githubusercontent.com/ImanolFotia/Chip-8-Emulator/master/captures/c1.png)
+{% include image.html url="https://raw.githubusercontent.com/ImanolFotia/Chip-8-Emulator/master/captures/c1.png" description="Chip-8 Logo" width=900 align="right" %}
 
 A few days ago I finally fulfilled one of my long pending projects, creating an emulator.  
 It is a basic **[Chip-8](https://en.wikipedia.org/wiki/CHIP-8)** emulator, considered by many the best project to start in this field.  
