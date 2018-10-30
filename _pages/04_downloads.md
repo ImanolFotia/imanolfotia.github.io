@@ -43,6 +43,14 @@ int main(int argc, char** argv)
 
 Available under the MIT License.
 
-Download the [source code](https://github.com/ImanolFotia/Epsilon-Virtual-File-System).
+[Source code](https://github.com/ImanolFotia/Epsilon-Virtual-File-System).
 
-Download [binaries](https://github.com/ImanolFotia/Epsilon-Virtual-File-System/blob/master/bin/Debug/VFS.zip?raw=true).
+[Binaries](https://github.com/ImanolFotia/Epsilon-Virtual-File-System/blob/master/bin/Debug/VFS.zip?raw=true).
+
+<h2>Chip-8 Emulator</h2>
+
+{% include image.html url="https://raw.githubusercontent.com/ImanolFotia/Chip-8-Emulator/master/captures/c1.png" description="Chip-8 Logo" width=500 align="right" %}
+
+[Source code](https://github.com/ImanolFotia/Chip-8-Emulator)
+
+[Binaries](https://github.com/ImanolFotia/Chip-8-Emulator/releases/download/1.0/Chip8.exe)
