@@ -9,7 +9,7 @@ permalink: /projects/
 
 {% include image.html url="/media/Epsilon Engine.png" description="Epsilon Engine" width=500 align="center" %}
 
-<a href="https://texturenexus.com"><h3>Texture Nexus</h3></a>
+<h3><a href="https://texturenexus.com">Texture Nexus</a></h3>
 <eps id=""><a href="{{ "https://texturenexus.com" | prepend: site.baseurl }}">Texture Nexus is a web 2D texture store to buy and sell high quality materials and textures for games and related 3D projects</a></eps>
 {% include image.html url="/media/TextureNexus.png" description="Texture Nexus" width=500 align="center" %}
 
