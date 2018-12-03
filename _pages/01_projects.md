@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-<h3><a href="http://imanolfotia.com/epsilon_engine">Epsilon Engine</h3>
+<h3><a href="http://imanolfotia.com/epsilon_engine">Epsilon Engine</a></h3>
 <eps id=""><a href="{{ "/epsilon_engine" | prepend: site.baseurl }}">Epsilon Engine, a next-gen game engine.</a></eps>
 
 {% include image.html url="/media/Epsilon Engine.png" description="Epsilon Engine" width=500 align="center" %}
