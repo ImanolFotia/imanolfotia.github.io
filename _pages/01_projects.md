@@ -10,7 +10,7 @@ permalink: /projects/
 {% include image.html url="/media/Epsilon Engine.png" description="Epsilon Engine" width=500 align="center" %}
 
 <h3>Walk&Go</h3>
-<eps id="#">Walk&Go is an android app with the main purpose of making the life in the streets of Argentina a easier. Coming soon to Google Play Store</a></eps>
+<eps id="#">Walk&Go is an android app with the main purpose of making the life in the streets of Argentina a easier. Coming soon to Google Play Store</eps>
 
 {% include image.html url="/media/walkandgo.png" description="Walk&Go" width=500 align="center" %}
 
