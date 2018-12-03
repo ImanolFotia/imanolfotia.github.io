@@ -4,10 +4,15 @@ title: Projects
 permalink: /projects/
 ---
 
-<h3>Epsilon Engine</h3>
+<h3><a href="http://imanolfotia.com/epsilon_engine">Epsilon Engine</h3>
 <eps id=""><a href="{{ "/epsilon_engine" | prepend: site.baseurl }}">Epsilon Engine, a next-gen game engine.</a></eps>
 
 {% include image.html url="/media/Epsilon Engine.png" description="Epsilon Engine" width=500 align="center" %}
+
+<h3>Walk&Go</h3>
+<eps id="#">Walk&Go is an android app with the main purpose of making the life in the streets of Argentina a easier. Coming soon to Google Play Store</a></eps>
+
+{% include image.html url="/media/walkandgo.png" description="Walk&Go" width=500 align="center" %}
 
 <h3><a href="https://texturenexus.com">Texture Nexus</a></h3>
 <eps id=""><a href="{{ "https://texturenexus.com" | prepend: site.baseurl }}">Texture Nexus is a web 2D texture store to buy and sell high quality materials and textures for games and related 3D projects</a></eps>
