@@ -48,11 +48,11 @@ Everytime the camera is still, the reflection buffer get's updated and averaged 
 
 The results are better than I expected.
 
-{% include image.html url="/media/comparison.jpg" description="Comparison with and without filter" width=900 align="center" %}
+{% include image.html url="/media/comparison.jpg" description="Comparison with and without filter" width=900 align="left" %}
 
 There are still problems when objects move. If they move withing the 250 frames after the filter start, it'll leave a trail or ghost image, if it moves after 250 frames, it's reflection will not update.
 Even though it is a really nice looking effect, I can't recomend using it for other than taking captures of a scene.
 
-{% include image.html url="/media/reflections0.jpg" description="Comparison with and without filter" width=900 align="center" %}
+{% include image.html url="/media/reflections0.jpg" width=900 align="left" %}
 
-{% include image.html url="/media/reflections1.jpg" description="Comparison with and without filter" width=900 align="center" %}
+{% include image.html url="/media/reflections1.jpg" width=900 align="left" %}
