@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Better Reflections"
+title:  "better-reflections"
 date:   2019-05-16 11:40:03 -0300
 categories: blog update
 ---
