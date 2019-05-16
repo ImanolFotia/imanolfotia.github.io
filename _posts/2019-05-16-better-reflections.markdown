@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Better Reflections"
+date:   2019-05-16 11:40:03 -0300
+categories: blog update
+---
+
 # Better Reflections
 
 A couple of years ago, I updated my blog with my implementation of screen space reflections (which you can see [here](http://imanolfotia.com/blog/update/2017/03/11/ScreenSpaceReflections.html)), at the time I used a hash function to jitter the reflection ray based on the surface's roughness. 
