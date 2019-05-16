@@ -2,7 +2,7 @@
 
 A couple of years ago, I updated my blog with my implementation of screen space reflections (which you can see [here](http://imanolfotia.com/blog/update/2017/03/11/ScreenSpaceReflections.html)), at the time I used a hash function to jitter the reflection ray based on the surface's roughness. 
 
-``` glsl
+{% highlight glsl linenos %}
 vec3 hash31(float a)
 {
    vec3 p3 = fract(vec3(a) * Scale);
@@ -10,7 +10,7 @@ vec3 hash31(float a)
    return fract((p3.xxy+p3.yzz)*p3.zyx); 
 }
 
-```
+{% endhighlight %}
 
 Although this made for a more realistic effect, it was distracting as it had a lot of flicker when the scene is not completely still. Today I present you my take on enhancing the effect to make it a little more pleasant to the eye.
 
@@ -22,7 +22,7 @@ The result, although still jittery, was a little bit better, and when paired wit
 
 This box blur implementation is as simple as it gets:
 
-``` glsl
+{% highlight glsl linenos %}
 vec4 color = vec4(0.0);
 float total = 0.0;
 for (float x = -4.0; x <= 4.0; x += 1.0) {
@@ -37,7 +37,7 @@ for (float x = -4.0; x <= 4.0; x += 1.0) {
 
 outColor = color / total;
 
-```
+{% endhighlight %}
 
 ## Temporal Filter
 
