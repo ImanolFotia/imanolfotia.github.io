@@ -11,6 +11,9 @@ All demos are powered by Shadertoy.
 This demo uses signed distance fields with raymarching to render the metaballs, it also implements Cook-Torrance specular model and reflections/refractions.
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/lsScz1?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
 
+<h4>Multibounce Reflections</h4>
+<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/Wtf3Wn?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
+
 <h4>Cook-Torrance + Oren-Nayar</h4>
 This one also uses signed distance fields and is implementing Oren-Nayar for the diffuse light contribution along with Cook-Torrance for the specular component.
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/MsSczh?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
